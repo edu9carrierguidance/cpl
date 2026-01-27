@@ -9,6 +9,7 @@ import { EducationSection } from "./components/EducationSection";
 import { PricingHighlight } from "./components/PricingHighlight";
 import { FTOPartnerships } from "./components/FTOPartnerships";
 import { Footer } from "./components/Footer";
+import EGCARegistrationPage from "./components/EGCARegistrationPage";
 
 const LandingPage = () => {
   return (
