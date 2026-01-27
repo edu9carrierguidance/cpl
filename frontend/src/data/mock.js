@@ -29,7 +29,7 @@ export const servicesData = {
     {
       id: 2,
       icon: "Stethoscope",
-      title: "C1 / C2 Medicals",
+      title: "C2 / C1 Medicals",
       description: "Complete guidance for Class 1 & Class 2 medical examinations with DGCA-approved medical examiners."
     },
     {
