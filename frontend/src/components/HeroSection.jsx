@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Play, Shield, Award, Users } from 'lucide-react';
+import { ArrowRight, Play, Award, Users } from 'lucide-react';
 import { Button } from './ui/button';
 import { heroData, statsData } from '../data/mock';
 
