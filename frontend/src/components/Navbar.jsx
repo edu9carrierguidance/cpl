@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Plane, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
 import { navigationData } from '../data/mock';
+
+const LOGO_URL = "https://customer-assets.emergentagent.com/job_pilotjourney-1/artifacts/1bnkp1f0_logo.jpeg";
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
