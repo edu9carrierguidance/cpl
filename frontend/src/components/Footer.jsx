@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Send, ArrowRight, Plane, Facebook, Instagram, Linkedin, Twitter, Clock, CheckCircle } from 'lucide-react';
+import { Phone, Mail, MapPin, Send, ArrowRight, Facebook, Instagram, Linkedin, Twitter, Clock, CheckCircle } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { contactData, navigationData } from '../data/mock';
 import { toast } from 'sonner';
+
+const LOGO_URL = "https://customer-assets.emergentagent.com/job_pilotjourney-1/artifacts/1bnkp1f0_logo.jpeg";
 
 export const Footer = () => {
   const [formData, setFormData] = useState({
