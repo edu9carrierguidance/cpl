@@ -6,10 +6,7 @@ export const PricingHighlight = () => {
   const benefitIcons = [Wallet, Eye, CreditCard, Gift];
 
   return (
-    <section className="py-24 lg:py-32 relative overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-aviation-blue via-aviation-blue-dark to-slate-900" />
-      
+    <section className="py-24 lg:py-32 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0055A5 0%, #003d7a 50%, #1e293b 100%)' }}>
       {/* Decorative Elements */}
       <div className="absolute top-10 left-10 w-64 h-64 bg-white/5 rounded-full blur-3xl" />
       <div className="absolute bottom-10 right-10 w-80 h-80 bg-sky-400/10 rounded-full blur-3xl" />
