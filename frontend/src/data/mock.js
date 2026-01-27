@@ -22,15 +22,15 @@ export const servicesData = {
   services: [
     {
       id: 1,
-      icon: "Stethoscope",
-      title: "C1 / C2 Medicals",
-      description: "Complete guidance for Class 1 & Class 2 medical examinations with DGCA-approved medical examiners."
-    },
-    {
-      id: 2,
       icon: "FileCheck",
       title: "eGCA Registration",
       description: "Seamless assistance with eGCA portal registration and documentation for aspiring pilots."
+    },
+    {
+      id: 2,
+      icon: "Stethoscope",
+      title: "C1 / C2 Medicals",
+      description: "Complete guidance for Class 1 & Class 2 medical examinations with DGCA-approved medical examiners."
     },
     {
       id: 3,
