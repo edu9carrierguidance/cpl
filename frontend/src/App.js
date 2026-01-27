@@ -31,6 +31,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/egca-registration" element={<EGCARegistrationPage />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" richColors />
