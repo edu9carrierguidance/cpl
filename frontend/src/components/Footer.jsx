@@ -103,12 +103,11 @@ export const Footer = () => {
             {/* Brand Column */}
             <div className="lg:col-span-1">
               <a href="#" className="flex items-center gap-2 mb-6">
-                <div className="p-2 bg-aviation-blue rounded-xl">
-                  <Plane className="w-6 h-6 text-white" />
-                </div>
-                <span className="text-2xl font-bold text-white">
-                  {navigationData.logo}
-                </span>
+                <img 
+                  src={LOGO_URL} 
+                  alt="Edu9 Career Guidance" 
+                  className="h-10 w-auto brightness-0 invert"
+                />
               </a>
               <p className="text-slate-400 leading-relaxed mb-6">
                 India's trusted career guidance partner for aspiring commercial pilots. Your dream of flying starts here.
