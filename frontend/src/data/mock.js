@@ -12,7 +12,7 @@ export const navigationData = {
 export const heroData = {
   headline: "Become a Commercial Pilot with Confidence",
   subtext: "100s of successful pilots produced | Your journey to the skies starts here",
-  ctaText: "Book Free Career Counseling",
+  ctaText: "Book Career Counseling",
   backgroundImage: "https://images.unsplash.com/photo-1764547168268-1c8b531bce9f"
 };
 
