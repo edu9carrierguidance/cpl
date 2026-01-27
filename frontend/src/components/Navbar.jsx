@@ -32,9 +32,7 @@ export const Navbar = () => {
             <img 
               src={LOGO_URL} 
               alt="Edu9 Career Guidance" 
-              className={`h-10 w-auto transition-all duration-300 ${
-                isScrolled ? '' : 'brightness-0 invert'
-              }`}
+              className="h-10 w-auto rounded-lg"
             />
           </a>
 
