@@ -29,18 +29,13 @@ export const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className={`p-2 rounded-xl transition-all duration-300 ${
-              isScrolled ? 'bg-aviation-blue' : 'bg-white/20 backdrop-blur-sm'
-            }`}>
-              <Plane className={`w-6 h-6 transition-colors duration-300 ${
-                isScrolled ? 'text-white' : 'text-white'
-              }`} />
-            </div>
-            <span className={`text-2xl font-bold tracking-tight transition-colors duration-300 ${
-              isScrolled ? 'text-aviation-blue' : 'text-white'
-            }`}>
-              {navigationData.logo}
-            </span>
+            <img 
+              src={LOGO_URL} 
+              alt="Edu9 Career Guidance" 
+              className={`h-10 w-auto transition-all duration-300 ${
+                isScrolled ? '' : 'brightness-0 invert'
+              }`}
+            />
           </a>
 
           {/* Desktop Menu */}
