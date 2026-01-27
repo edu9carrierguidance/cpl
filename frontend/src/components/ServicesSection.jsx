@@ -11,6 +11,14 @@ const iconMap = {
 };
 
 export const ServicesSection = () => {
+  const navigate = useNavigate();
+
+  const handleLearnMore = (serviceTitle) => {
+    if (serviceTitle === "eGCA Registration") {
+      navigate('/egca-registration');
+    }
+  };
+
   return (
     <section id="services" className="py-24 lg:py-32 bg-slate-50 relative overflow-hidden">
       {/* Background Decorations */}
