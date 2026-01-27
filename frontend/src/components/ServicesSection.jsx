@@ -1,5 +1,6 @@
 import React from 'react';
 import { Stethoscope, FileCheck, ClipboardCheck, Hash, ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { servicesData } from '../data/mock';
 
 const iconMap = {
