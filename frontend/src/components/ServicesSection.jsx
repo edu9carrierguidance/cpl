@@ -63,13 +63,13 @@ export const ServicesSection = () => {
                 </p>
 
                 {/* Learn More */}
-                <a
-                  href="#"
-                  className="inline-flex items-center text-aviation-blue font-semibold text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 hover:gap-3"
+                <button
+                  onClick={() => handleLearnMore(service.title)}
+                  className="inline-flex items-center text-aviation-blue font-semibold text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 hover:gap-3 cursor-pointer"
                 >
                   Learn more
                   <ArrowRight className="w-4 h-4 ml-2" />
-                </a>
+                </button>
               </div>
             );
           })}
