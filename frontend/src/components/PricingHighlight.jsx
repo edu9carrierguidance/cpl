@@ -54,7 +54,7 @@ export const PricingHighlight = () => {
                   <div
                     key={index}
                     onClick={() => handleBenefitClick(benefit)}
-                    className={`flex items-center gap-4 bg-white/5 backdrop-blur-sm rounded-2xl p-5 border border-white/10 hover:bg-white/10 hover:scale-[1.02] transition-all duration-300 group ${isClickable ? 'cursor-pointer ring-2 ring-amber-400/50 hover:ring-amber-400' : ''}`}
+                    className={`flex items-center gap-4 bg-white/5 backdrop-blur-sm rounded-2xl p-5 border border-white/10 hover:bg-white/10 hover:scale-[1.02] transition-all duration-300 group ${isClickable ? 'cursor-pointer ring-2 ring-[#D4A843]/50 hover:ring-[#D4A843]' : ''}`}
                   >
                     <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center group-hover:bg-white/20 transition-colors">
                       <IconComponent className="w-6 h-6 text-[#D4A843]" />
