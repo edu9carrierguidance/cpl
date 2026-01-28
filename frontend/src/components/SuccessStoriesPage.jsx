@@ -187,7 +187,7 @@ const SuccessStoriesPage = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           {/* Section Header */}
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 to-orange-500 text-slate-900 font-bold text-sm uppercase tracking-wider px-6 py-2.5 rounded-full shadow-lg shadow-amber-500/30 mb-6">
+            <div className="inline-flex items-center gap-2 bg-[#D4A843] text-slate-900 font-bold text-sm uppercase tracking-wider px-6 py-2.5 rounded-full shadow-lg shadow-[#D4A843]/30 mb-6">
               <Sparkles className="w-4 h-4" />
               Special Attraction
             </div>
