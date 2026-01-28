@@ -13,7 +13,7 @@ const DGCAGroundClassesPage = () => {
       title: "Air Regulations",
       description: "Covers aviation laws, DGCA rules, airspace regulations, and safety procedures required for legal and safe flying.",
       topics: ["Aviation Laws", "DGCA Rules", "Airspace Regulations", "Safety Procedures"],
-      color: "from-blue-500 to-indigo-600"
+      color: "from-[#0055A5] to-[#003d7a]"
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const DGCAGroundClassesPage = () => {
       title: "Aviation Meteorology",
       description: "Deals with weather conditions such as winds, clouds, storms, and interpretation of weather reports used in aviation.",
       topics: ["Weather Conditions", "Winds & Clouds", "Storm Patterns", "Weather Reports Interpretation"],
-      color: "from-sky-500 to-cyan-600"
+      color: "from-[#003d7a] to-[#002855]"
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const DGCAGroundClassesPage = () => {
       title: "Air Navigation",
       description: "Teaches flight planning, map reading, navigation charts, latitude & longitude, and route calculations.",
       topics: ["Flight Planning", "Map Reading", "Navigation Charts", "Route Calculations"],
-      color: "from-emerald-500 to-teal-600"
+      color: "from-[#0055A5] to-[#003d7a]"
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ const DGCAGroundClassesPage = () => {
       title: "Technical General",
       description: "Explains basic aircraft systems including engines, instruments, electrical systems, and flight controls.",
       topics: ["Aircraft Engines", "Flight Instruments", "Electrical Systems", "Flight Controls"],
-      color: "from-amber-500 to-orange-600"
+      color: "from-[#D4A843] to-[#B8922E]"
     },
     {
       id: 5,
@@ -45,7 +45,7 @@ const DGCAGroundClassesPage = () => {
       title: "Technical Specific",
       description: "Focuses on the systems, limitations, and performance of a specific aircraft type.",
       topics: ["Aircraft Systems", "Operating Limitations", "Performance Data", "Type-Specific Knowledge"],
-      color: "from-violet-500 to-purple-600"
+      color: "from-[#003d7a] to-[#002855]"
     },
     {
       id: 6,
@@ -53,7 +53,7 @@ const DGCAGroundClassesPage = () => {
       title: "Radio Telephony (RTR)",
       description: "Trains pilots in standard aviation communication with Air Traffic Control using correct phraseology.",
       topics: ["ATC Communication", "Standard Phraseology", "Radio Procedures", "Emergency Communications"],
-      color: "from-rose-500 to-pink-600"
+      color: "from-[#0055A5] to-[#003d7a]"
     }
   ];
 
