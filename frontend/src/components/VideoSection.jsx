@@ -1,5 +1,7 @@
 import React from 'react';
-import { Sparkles, Play } from 'lucide-react';
+import { Play } from 'lucide-react';
+
+const LOGO_URL = "https://customer-assets.emergentagent.com/job_pilotjourney-1/artifacts/1bnkp1f0_logo.jpeg";
 
 export const VideoSection = () => {
   const specialVideos = [
@@ -34,9 +36,13 @@ export const VideoSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 to-orange-500 text-slate-900 font-bold text-sm uppercase tracking-wider px-6 py-2.5 rounded-full shadow-lg shadow-amber-500/30 mb-6">
-            <Sparkles className="w-4 h-4" />
-            Special Attraction
+          <div className="inline-flex items-center gap-3 bg-gradient-to-r from-amber-400 to-orange-500 text-slate-900 font-bold text-sm uppercase tracking-wider px-6 py-3 rounded-full shadow-lg shadow-amber-500/30 mb-6">
+            <img 
+              src={LOGO_URL} 
+              alt="Edu9" 
+              className="h-8 w-auto rounded"
+            />
+            <span className="text-base">Edu9 Career Guidance</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
             Watch & Learn
