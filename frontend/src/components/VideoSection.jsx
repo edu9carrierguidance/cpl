@@ -31,7 +31,7 @@ export const VideoSection = () => {
     <section className="py-24 lg:py-32 bg-gradient-to-b from-white to-slate-50 relative overflow-hidden">
       {/* Background Decorations */}
       <div className="absolute top-20 right-10 w-72 h-72 bg-aviation-blue/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 left-10 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-20 left-10 w-80 h-80 bg-[#D4A843]/10 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         {/* Section Header */}
