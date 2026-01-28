@@ -16,6 +16,8 @@ export const ServicesSection = () => {
   const handleLearnMore = (serviceTitle) => {
     if (serviceTitle === "eGCA Registration") {
       navigate('/egca-registration');
+    } else if (serviceTitle === "Board Verification") {
+      navigate('/board-verification');
     }
   };
 
