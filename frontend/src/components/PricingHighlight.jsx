@@ -26,7 +26,7 @@ export const PricingHighlight = () => {
           <div className="relative bg-white/10 backdrop-blur-xl rounded-[2.5rem] p-8 md:p-12 lg:p-16 border border-white/20 shadow-2xl">
             {/* Badge */}
             <div className="absolute -top-5 left-1/2 -translate-x-1/2">
-              <div className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 to-orange-500 text-slate-900 font-bold text-sm uppercase tracking-wider px-6 py-2.5 rounded-full shadow-lg shadow-amber-500/30">
+              <div className="inline-flex items-center gap-2 bg-[#D4A843] text-slate-900 font-bold text-sm uppercase tracking-wider px-6 py-2.5 rounded-full shadow-lg shadow-[#D4A843]/30">
                 <Sparkles className="w-4 h-4" />
                 {pricingHighlightData.badge}
               </div>
