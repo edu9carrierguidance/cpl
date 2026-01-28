@@ -62,7 +62,7 @@ export const PricingHighlight = () => {
                     <div className="flex-1">
                       <span className="text-white font-medium text-lg">{benefit}</span>
                       {isClickable && (
-                        <span className="block text-amber-400 text-sm mt-1">Click to view details →</span>
+                        <span className="block text-[#D4A843] text-sm mt-1">Click to view details →</span>
                       )}
                     </div>
                   </div>
