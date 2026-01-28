@@ -49,15 +49,22 @@ export const PricingHighlight = () => {
             <div className="grid md:grid-cols-2 gap-4 lg:gap-6">
               {pricingHighlightData.benefits.map((benefit, index) => {
                 const IconComponent = benefitIcons[index];
+                const isClickable = benefit === "Stage-wise payment structure";
                 return (
                   <div
                     key={index}
-                    className="flex items-center gap-4 bg-white/5 backdrop-blur-sm rounded-2xl p-5 border border-white/10 hover:bg-white/10 hover:scale-[1.02] transition-all duration-300 group"
+                    onClick={() => handleBenefitClick(benefit)}
+                    className={`flex items-center gap-4 bg-white/5 backdrop-blur-sm rounded-2xl p-5 border border-white/10 hover:bg-white/10 hover:scale-[1.02] transition-all duration-300 group ${isClickable ? 'cursor-pointer ring-2 ring-amber-400/50 hover:ring-amber-400' : ''}`}
                   >
                     <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center group-hover:bg-white/20 transition-colors">
                       <IconComponent className="w-6 h-6 text-sky-300" />
                     </div>
-                    <span className="text-white font-medium text-lg">{benefit}</span>
+                    <div className="flex-1">
+                      <span className="text-white font-medium text-lg">{benefit}</span>
+                      {isClickable && (
+                        <span className="block text-amber-400 text-sm mt-1">Click to view details →</span>
+                      )}
+                    </div>
                   </div>
                 );
               })}
