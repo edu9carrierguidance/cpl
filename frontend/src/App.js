@@ -7,7 +7,6 @@ import { HeroSection } from "./components/HeroSection";
 import { ServicesSection } from "./components/ServicesSection";
 import { EducationSection } from "./components/EducationSection";
 import { PricingHighlight } from "./components/PricingHighlight";
-import { FTOPartnerships } from "./components/FTOPartnerships";
 import { Footer } from "./components/Footer";
 import EGCARegistrationPage from "./components/EGCARegistrationPage";
 
@@ -19,7 +18,6 @@ const LandingPage = () => {
       <ServicesSection />
       <EducationSection />
       <PricingHighlight />
-      <FTOPartnerships />
       <Footer />
     </div>
   );
