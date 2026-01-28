@@ -14,7 +14,7 @@ const PricingPage = () => {
       price: "₹10,000",
       description: "Professional career counseling and guidance for aspiring pilots",
       features: ["One-on-one counseling", "Career roadmap planning", "Eligibility assessment"],
-      color: "from-emerald-500 to-teal-600"
+      color: "from-[#0055A5] to-[#003d7a]"
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const PricingPage = () => {
       price: "₹60,000",
       description: "Complete documentation and medical certification process",
       features: ["C2/C1 Medical examination", "DGCA Computer number", "Board verification certificate"],
-      color: "from-blue-500 to-indigo-600"
+      color: "from-[#003d7a] to-[#002855]"
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const PricingPage = () => {
       price: "₹1,40,000",
       description: "Comprehensive ground school training for 3 subjects",
       features: ["Navigation", "Meteorology", "Air Regulations"],
-      color: "from-violet-500 to-purple-600"
+      color: "from-[#0055A5] to-[#003d7a]"
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ const PricingPage = () => {
       price: "₹55 Lakhs",
       description: "Complete flight training at DGCA approved FTOs in India",
       features: ["200+ flight hours", "CPL training", "Type rating preparation"],
-      color: "from-amber-500 to-orange-600"
+      color: "from-[#D4A843] to-[#B8922E]"
     },
     {
       id: 5,
@@ -51,7 +51,7 @@ const PricingPage = () => {
       description: "International flight training program",
       features: ["World-class training facilities", "International exposure", "Faster completion"],
       note: "*Excluding visa charges",
-      color: "from-rose-500 to-pink-600"
+      color: "from-[#0055A5] to-[#003d7a]"
     },
     {
       id: 6,
@@ -61,7 +61,7 @@ const PricingPage = () => {
       description: "License conversion for South Africa trained pilots",
       features: ["15 hours flying", "DGCA conversion", "Documentation support"],
       note: "Required for SA trained pilots",
-      color: "from-cyan-500 to-blue-600"
+      color: "from-[#003d7a] to-[#002855]"
     },
     {
       id: 7,
@@ -71,7 +71,7 @@ const PricingPage = () => {
       description: "Aircraft type-specific certification",
       features: ["Aircraft model specific", "Simulator training", "Airline requirements"],
       note: "Depends on aircraft model",
-      color: "from-slate-600 to-slate-800"
+      color: "from-slate-700 to-slate-900"
     }
   ];
 
