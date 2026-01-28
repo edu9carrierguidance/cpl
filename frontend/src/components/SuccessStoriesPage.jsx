@@ -115,7 +115,7 @@ const SuccessStoriesPage = () => {
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center gap-1 text-3xl font-bold text-slate-900">
-                5.0 <Star className="w-6 h-6 text-amber-400 fill-amber-400" />
+                5.0 <Star className="w-6 h-6 text-[#D4A843] fill-[#D4A843]" />
               </div>
               <div className="text-slate-500 text-sm">Average Rating</div>
             </div>
