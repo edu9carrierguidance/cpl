@@ -50,6 +50,7 @@ export const HeroSection = () => {
             <Button
               size="lg"
               variant="outline"
+              onClick={() => navigate('/success-stories')}
               className="border-2 border-white/30 text-white bg-white/5 hover:bg-white/10 px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 backdrop-blur-sm group"
             >
               <Play className="mr-2 w-5 h-5" />
