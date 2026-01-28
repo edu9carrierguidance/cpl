@@ -114,8 +114,8 @@ export const ftoPartnershipsData = {
 export const contactData = {
   phone: "9133311450",
   email: "ceo@edu9.in",
-  address: "Ameerpet, Hyderabad, Telangana, India",
-  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4007039259814!2d78.44137197484701!3d17.437332583461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90c5e6c2e6b7%3A0x5f5e3e8e8e8e8e8e!2sAmeerpet%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1625000000000!5m2!1sen!2sin",
+  address: "12th Floor, Vasavi Mpm Grand, 1312, beside Ameerpet Metro Station, Ameerpet, Hyderabad, Telangana 500073",
+  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4007039259814!2d78.4413719!3d17.4373325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90ce3bbce2db%3A0x4b5f8c3c3c3c3c3c!2sVasavi%20MPM%20Grand%2C%20beside%20Ameerpet%20Metro%20Station%2C%20Ameerpet%2C%20Hyderabad%2C%20Telangana%20500073!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
   finalCta: "Start Your Pilot Journey Today"
 };
 
