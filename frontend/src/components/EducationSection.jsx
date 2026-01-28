@@ -79,7 +79,10 @@ export const EducationSection = () => {
                   ))}
                 </div>
 
-                <Button className="bg-aviation-blue hover:bg-aviation-blue-dark text-white px-8 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-aviation-blue/30 hover:-translate-y-1 group">
+                <Button 
+                  onClick={() => handleLearnMore(program.title)}
+                  className="bg-aviation-blue hover:bg-aviation-blue-dark text-white px-8 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-aviation-blue/30 hover:-translate-y-1 group"
+                >
                   Learn More
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
