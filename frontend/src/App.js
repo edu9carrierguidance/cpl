@@ -7,6 +7,7 @@ import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
 import { ServicesSection } from "./components/ServicesSection";
 import { EducationSection } from "./components/EducationSection";
+import { VideoSection } from "./components/VideoSection";
 import { PricingHighlight } from "./components/PricingHighlight";
 import { Footer } from "./components/Footer";
 import EGCARegistrationPage from "./components/EGCARegistrationPage";
@@ -22,6 +23,7 @@ const LandingPage = () => {
       <HeroSection />
       <ServicesSection />
       <EducationSection />
+      <VideoSection />
       <PricingHighlight />
       <Footer />
     </div>
