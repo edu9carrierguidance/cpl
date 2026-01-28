@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Gradient Text Helper */
 .gradient-text {
-  background: linear-gradient(135deg, var(--aviation-blue), #3b82f6);
+  background: linear-gradient(135deg, var(--aviation-blue), var(--logo-gold));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
