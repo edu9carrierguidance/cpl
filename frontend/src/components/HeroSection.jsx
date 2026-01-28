@@ -1,9 +1,12 @@
 import React from 'react';
 import { ArrowRight, Play, Award, Users } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from './ui/button';
 import { heroData, statsData } from '../data/mock';
 
 export const HeroSection = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background with Overlay */}
