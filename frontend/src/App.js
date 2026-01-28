@@ -37,6 +37,7 @@ function App() {
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/success-stories" element={<SuccessStoriesPage />} />
           <Route path="/board-verification" element={<BoardVerificationPage />} />
+          <Route path="/dgca-ground-classes" element={<DGCAGroundClassesPage />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" richColors />
