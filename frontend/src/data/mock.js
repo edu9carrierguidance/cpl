@@ -4,7 +4,6 @@ export const navigationData = {
   logo: "Edu9",
   menuItems: [
     { label: "Services", href: "#services" },
-    { label: "FTOs", href: "#ftos" },
     { label: "Contact Us", href: "#contact" }
   ]
 };
