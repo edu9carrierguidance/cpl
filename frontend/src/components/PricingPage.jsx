@@ -55,8 +55,8 @@ const PricingPage = () => {
     }
   ];
 
-  const totalIndia = "₹46,10,000";
-  const totalSouthAfrica = "₹51,10,000*";
+  const totalIndia = "₹47,10,000";
+  const totalSouthAfrica = "₹52,10,000 (approx.)";
 
   return (
     <div className="min-h-screen bg-slate-50">
