@@ -13,7 +13,7 @@ const SuccessStoriesPage = () => {
       rating: 5,
       location: "Visakhapatnam, Andhra Pradesh",
       review: "Excellent guidance from EDU9 Career Guidance for CPL training. Everything from DGCA exams to flight school selection was explained clearly. Highly recommended for serious CPL aspirants.",
-      color: "from-blue-500 to-indigo-600"
+      color: "from-[#0055A5] to-[#003d7a]"
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const SuccessStoriesPage = () => {
       rating: 5,
       location: "Vijayawada, Andhra Pradesh",
       review: "Very satisfied with the CPL career guidance provided by EDU9. The mentors are knowledgeable, supportive, and honest. It gave me great clarity and confidence about my aviation career.",
-      color: "from-emerald-500 to-teal-600"
+      color: "from-[#003d7a] to-[#002855]"
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const SuccessStoriesPage = () => {
       rating: 5,
       location: "Warangal, Telangana",
       review: "EDU9 Career Guidance offers professional and personalized CPL guidance. All my doubts were patiently answered, and the process was explained step by step. A truly reliable platform.",
-      color: "from-violet-500 to-purple-600"
+      color: "from-[#0055A5] to-[#003d7a]"
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ const SuccessStoriesPage = () => {
       rating: 5,
       location: "Nizamabad, Telangana",
       review: "Great experience with EDU9 Career Guidance for CPL training. Transparent advice, practical insights, and excellent support throughout. Definitely deserving of a 5-star rating.",
-      color: "from-amber-500 to-orange-600"
+      color: "from-[#D4A843] to-[#B8922E]"
     }
   ];
 
