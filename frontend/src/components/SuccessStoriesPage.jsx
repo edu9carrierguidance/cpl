@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, Star, MapPin, Quote, Award } from 'lucide-react';
+import { ArrowLeft, Star, MapPin, Quote, Award, Play, Sparkles } from 'lucide-react';
 import { Button } from './ui/button';
 import { useNavigate } from 'react-router-dom';
 
@@ -38,6 +38,29 @@ const SuccessStoriesPage = () => {
       location: "Nizamabad, Telangana",
       review: "Great experience with EDU9 Career Guidance for CPL training. Transparent advice, practical insights, and excellent support throughout. Definitely deserving of a 5-star rating.",
       color: "from-amber-500 to-orange-600"
+    }
+  ];
+
+  const specialVideos = [
+    {
+      id: 1,
+      embedUrl: "https://www.youtube.com/embed/giZml5v5Ci4",
+      title: "Success Story 1"
+    },
+    {
+      id: 2,
+      embedUrl: "https://www.youtube.com/embed/jHxbnCoqvfQ",
+      title: "Success Story 2"
+    },
+    {
+      id: 3,
+      embedUrl: "https://www.youtube.com/embed/wjqAIxGOYWM",
+      title: "Success Story 3"
+    },
+    {
+      id: 4,
+      embedUrl: "https://www.youtube.com/embed/eS5AOerIOLA",
+      title: "Success Story 4"
     }
   ];
 
