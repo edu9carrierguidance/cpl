@@ -168,7 +168,7 @@ const PricingPage = () => {
                 <h3 className="text-xl font-bold">Total (Flying in India)</h3>
               </div>
               <div className="text-4xl font-bold text-amber-400 mb-2">{totalIndia}</div>
-              <p className="text-slate-400 text-sm">Career Guidance + Documentation + Ground Classes + Flying</p>
+              <p className="text-slate-400 text-sm">Career Guidance + Documentation + Ground Classes + Flying + Type Rating</p>
             </div>
 
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 text-white">
@@ -177,7 +177,7 @@ const PricingPage = () => {
                 <h3 className="text-xl font-bold">Total (Flying in South Africa)</h3>
               </div>
               <div className="text-4xl font-bold text-rose-400 mb-2">{totalSouthAfrica}</div>
-              <p className="text-slate-400 text-sm">*Approximately, excluding visa charges</p>
+              <p className="text-slate-400 text-sm">Includes Conversion Charges + Type Rating (excluding visa charges)</p>
             </div>
           </div>
         </div>
