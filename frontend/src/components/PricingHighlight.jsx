@@ -37,7 +37,7 @@ export const PricingHighlight = () => {
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 mt-4">
                 {pricingHighlightData.title}
               </h2>
-              <p className="text-xl md:text-2xl text-sky-200 font-medium mb-6">
+              <p className="text-xl md:text-2xl text-[#D4A843] font-medium mb-6">
                 {pricingHighlightData.subtitle}
               </p>
               <p className="text-white/70 leading-relaxed max-w-2xl mx-auto text-lg">
