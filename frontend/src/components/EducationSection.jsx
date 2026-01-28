@@ -10,6 +10,8 @@ export const EducationSection = () => {
   const handleLearnMore = (programTitle) => {
     if (programTitle === "DGCA Ground Classes") {
       navigate('/dgca-ground-classes');
+    } else if (programTitle === "Cadet Program Preparation") {
+      window.open('https://youtu.be/_WIT2z8kISQ?si=5Bqbm5lGK9XXgqnm', '_blank');
     }
   };
 
