@@ -9,6 +9,7 @@ import { EducationSection } from "./components/EducationSection";
 import { PricingHighlight } from "./components/PricingHighlight";
 import { Footer } from "./components/Footer";
 import EGCARegistrationPage from "./components/EGCARegistrationPage";
+import PricingPage from "./components/PricingPage";
 
 const LandingPage = () => {
   return (
