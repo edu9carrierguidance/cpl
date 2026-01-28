@@ -38,7 +38,7 @@ const PricingPage = () => {
       id: 4,
       icon: Plane,
       title: "Flying in India",
-      price: "₹45 Lakhs",
+      price: "₹55 Lakhs",
       description: "Complete flight training at DGCA approved FTOs in India",
       features: ["200+ flight hours", "CPL training", "Type rating preparation"],
       color: "from-amber-500 to-orange-600"
@@ -47,11 +47,31 @@ const PricingPage = () => {
       id: 5,
       icon: Globe,
       title: "Flying in South Africa",
-      price: "₹50 Lakhs*",
+      price: "₹39 Lakhs",
       description: "International flight training program",
       features: ["World-class training facilities", "International exposure", "Faster completion"],
-      note: "*Approximately, excluding visa charges",
+      note: "*Excluding visa charges",
       color: "from-rose-500 to-pink-600"
+    },
+    {
+      id: 6,
+      icon: Plane,
+      title: "South Africa Conversion Charges",
+      price: "₹4 Lakhs",
+      description: "License conversion for South Africa trained pilots",
+      features: ["15 hours flying", "DGCA conversion", "Documentation support"],
+      note: "Required for SA trained pilots",
+      color: "from-cyan-500 to-blue-600"
+    },
+    {
+      id: 7,
+      icon: IndianRupee,
+      title: "Type Rating",
+      price: "₹10-15 Lakhs",
+      description: "Aircraft type-specific certification",
+      features: ["Aircraft model specific", "Simulator training", "Airline requirements"],
+      note: "Depends on aircraft model",
+      color: "from-slate-600 to-slate-800"
     }
   ];
 
