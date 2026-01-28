@@ -97,7 +97,7 @@ const PricingPage = () => {
       {/* Hero Section */}
       <div className="py-16 lg:py-20" style={{ background: 'linear-gradient(135deg, #0055A5 0%, #003d7a 100%)' }}>
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 to-orange-500 text-slate-900 font-bold text-sm uppercase tracking-wider px-6 py-2.5 rounded-full shadow-lg mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#D4A843] text-slate-900 font-bold text-sm uppercase tracking-wider px-6 py-2.5 rounded-full shadow-lg mb-6">
             <Wallet className="w-4 h-4" />
             Edu9 Beauty
           </div>
