@@ -10,6 +10,7 @@ import { PricingHighlight } from "./components/PricingHighlight";
 import { Footer } from "./components/Footer";
 import EGCARegistrationPage from "./components/EGCARegistrationPage";
 import PricingPage from "./components/PricingPage";
+import SuccessStoriesPage from "./components/SuccessStoriesPage";
 
 const LandingPage = () => {
   return (
