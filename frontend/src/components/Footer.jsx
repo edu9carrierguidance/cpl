@@ -62,7 +62,7 @@ export const Footer = () => {
                   {contactData.finalCta}
                 </h2>
                 <p className="text-white/80 text-lg">
-                  Get personalized guidance from our aviation experts. Book your free career counseling session now.
+                  Get personalized guidance. Book your career counseling session now.
                 </p>
               </div>
 
