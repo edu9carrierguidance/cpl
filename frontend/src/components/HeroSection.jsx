@@ -42,6 +42,7 @@ export const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-slide-up-delay-2">
             <Button
               size="lg"
+              onClick={() => window.open('https://edu9.in/aviation/#booking', '_blank')}
               className="bg-white text-aviation-blue hover:bg-white/90 px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:shadow-2xl hover:shadow-white/20 hover:-translate-y-1 group"
             >
               {heroData.ctaText}
