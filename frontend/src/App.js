@@ -33,6 +33,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/egca-registration" element={<EGCARegistrationPage />} />
           <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/success-stories" element={<SuccessStoriesPage />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" richColors />
