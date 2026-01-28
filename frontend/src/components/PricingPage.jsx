@@ -164,19 +164,19 @@ const PricingPage = () => {
           <div className="mt-12 grid md:grid-cols-2 gap-6">
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 text-white">
               <div className="flex items-center gap-3 mb-4">
-                <Plane className="w-6 h-6 text-amber-400" />
+                <Plane className="w-6 h-6 text-[#D4A843]" />
                 <h3 className="text-xl font-bold">Total (Flying in India)</h3>
               </div>
-              <div className="text-4xl font-bold text-amber-400 mb-2">{totalIndia}</div>
+              <div className="text-4xl font-bold text-[#D4A843] mb-2">{totalIndia}</div>
               <p className="text-slate-400 text-sm">Career Guidance + Documentation + Ground Classes + Flying + Type Rating</p>
             </div>
 
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 text-white">
               <div className="flex items-center gap-3 mb-4">
-                <Globe className="w-6 h-6 text-rose-400" />
+                <Globe className="w-6 h-6 text-[#D4A843]" />
                 <h3 className="text-xl font-bold">Total (Flying in South Africa)</h3>
               </div>
-              <div className="text-4xl font-bold text-rose-400 mb-2">{totalSouthAfrica}</div>
+              <div className="text-4xl font-bold text-[#D4A843] mb-2">{totalSouthAfrica}</div>
               <p className="text-slate-400 text-sm">Includes Conversion Charges + Type Rating (excluding visa charges)</p>
             </div>
           </div>
