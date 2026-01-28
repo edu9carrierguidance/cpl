@@ -1,9 +1,18 @@
 import React from 'react';
 import { GraduationCap, CheckCircle2, ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from './ui/button';
 import { educationData } from '../data/mock';
 
 export const EducationSection = () => {
+  const navigate = useNavigate();
+
+  const handleLearnMore = (programTitle) => {
+    if (programTitle === "DGCA Ground Classes") {
+      navigate('/dgca-ground-classes');
+    }
+  };
+
   return (
     <section className="py-24 lg:py-32 bg-white relative overflow-hidden">
       {/* Background Pattern */}
