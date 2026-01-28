@@ -1,9 +1,17 @@
 import React from 'react';
-import { Sparkles, CheckCircle2, CreditCard, Eye, Wallet, Gift } from 'lucide-react';
+import { Sparkles, CreditCard, Eye, Wallet, Gift } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { pricingHighlightData } from '../data/mock';
 
 export const PricingHighlight = () => {
+  const navigate = useNavigate();
   const benefitIcons = [Wallet, Eye, CreditCard, Gift];
+
+  const handleBenefitClick = (benefit) => {
+    if (benefit === "Stage-wise payment structure") {
+      navigate('/pricing');
+    }
+  };
 
   return (
     <section className="py-24 lg:py-32 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0055A5 0%, #003d7a 50%, #1e293b 100%)' }}>
