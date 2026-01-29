@@ -17,8 +17,11 @@ import {
   SelectValue,
 } from './ui/select';
 import { toast } from 'sonner';
+import axios from 'axios';
 
 const LOGO_URL = "https://customer-assets.emergentagent.com/job_pilotjourney-1/artifacts/1bnkp1f0_logo.jpeg";
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const API = `${BACKEND_URL}/api`;
 
 export const RegistrationForm = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
