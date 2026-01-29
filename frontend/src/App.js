@@ -15,6 +15,7 @@ import PricingPage from "./components/PricingPage";
 import SuccessStoriesPage from "./components/SuccessStoriesPage";
 import BoardVerificationPage from "./components/BoardVerificationPage";
 import DGCAGroundClassesPage from "./components/DGCAGroundClassesPage";
+import AdminRegistrations from "./components/AdminRegistrations";
 
 const LandingPage = () => {
   return (
