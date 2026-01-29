@@ -1,6 +1,5 @@
 import React from 'react';
-import { ArrowRight, Play, Award, Users } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
 import { heroData, statsData } from '../data/mock';
 
