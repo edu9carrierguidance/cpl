@@ -100,7 +100,7 @@ export const Navbar = () => {
               <Button
                 onClick={() => {
                   setIsMobileMenuOpen(false);
-                  window.open('https://starsite.in/projects/edu9.in/', '_blank');
+                  setIsRegistrationOpen(true);
                 }}
                 className="w-full bg-aviation-blue hover:bg-aviation-blue-dark text-white rounded-full mt-4"
               >
