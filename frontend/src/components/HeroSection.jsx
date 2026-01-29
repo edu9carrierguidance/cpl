@@ -4,8 +4,6 @@ import { Button } from './ui/button';
 import { heroData, statsData } from '../data/mock';
 
 export const HeroSection = () => {
-  const navigate = useNavigate();
-
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background with Overlay */}
