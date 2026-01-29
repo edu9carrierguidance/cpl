@@ -56,7 +56,7 @@ export const Navbar = () => {
                 </a>
               ))}
               <Button
-                onClick={() => setIsRegistrationOpen(true)}
+                onClick={() => window.open('https://starsite.in/projects/edu9.in/', '_blank')}
                 className="bg-aviation-blue hover:bg-aviation-blue-dark text-white px-6 py-2 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-aviation-blue/30 hover:-translate-y-0.5"
               >
                 Get Started
