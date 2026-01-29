@@ -43,6 +43,7 @@ function App() {
           <Route path="/success-stories" element={<SuccessStoriesPage />} />
           <Route path="/board-verification" element={<BoardVerificationPage />} />
           <Route path="/dgca-ground-classes" element={<DGCAGroundClassesPage />} />
+          <Route path="/admin/registrations" element={<AdminRegistrations />} />
         </Routes>
       </BrowserRouter>
       <Toaster position="top-right" richColors />
