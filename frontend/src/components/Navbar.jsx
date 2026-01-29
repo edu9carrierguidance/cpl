@@ -107,12 +107,5 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-
-      {/* Registration Form Modal */}
-      <RegistrationForm 
-        isOpen={isRegistrationOpen} 
-        onClose={() => setIsRegistrationOpen(false)} 
-      />
-    </>
   );
 };
