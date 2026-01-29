@@ -48,34 +48,42 @@ export const RegistrationForm = ({ isOpen, onClose }) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
-
-    setIsSubmitting(false);
-    setIsSuccess(true);
-    
-    toast.success('Registration Successful!', {
-      description: 'Our team will contact you within 24 hours.'
-    });
-
-    // Reset after showing success
-    setTimeout(() => {
-      setIsSuccess(false);
-      setFormData({
-        fullName: '',
-        mobileNumber: '',
-        emailId: '',
-        currentCity: '',
-        age: '',
-        educationalBackground: '',
-        visionStatus: '',
-        medicalStatus: '',
-        licenseInterest: '',
-        emergencyContactName: '',
-        emergencyContactRelation: ''
+    try {
+      // Submit form data to backend
+      await axios.post(`${API}/registrations`, formData);
+      
+      setIsSubmitting(false);
+      setIsSuccess(true);
+      
+      toast.success('Registration Successful!', {
+        description: 'Our team will contact you within 24 hours.'
       });
-      onClose();
-    }, 2000);
+
+      // Reset after showing success
+      setTimeout(() => {
+        setIsSuccess(false);
+        setFormData({
+          fullName: '',
+          mobileNumber: '',
+          emailId: '',
+          currentCity: '',
+          age: '',
+          educationalBackground: '',
+          visionStatus: '',
+          medicalStatus: '',
+          licenseInterest: '',
+          emergencyContactName: '',
+          emergencyContactRelation: ''
+        });
+        onClose();
+      }, 2000);
+    } catch (error) {
+      setIsSubmitting(false);
+      console.error('Registration error:', error);
+      toast.error('Registration Failed', {
+        description: 'Please try again or contact us directly.'
+      });
+    }
   };
 
   if (isSuccess) {
