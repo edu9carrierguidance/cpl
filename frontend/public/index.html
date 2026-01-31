@@ -38,21 +38,6 @@
             document.body.appendChild(s);
         </script>
         
-        <!-- Meritto/NoPaperForms Popup Widget Script -->
-        <script src="https://in4cdn.npfs.co/js/widget/npfwpopup.js"></script>
-        <script>
-            let npfW48d9c2a459354029d770de776442581e = new NpfWidgetsInit({
-                "widgetId": "48d9c2a459354029d770de776442581e",
-                "baseurl": "widgets.in4.nopaperforms.com",
-                "formTitle": "Enquiry Form",
-                "titleColor": "#0055A5",
-                "backgroundColor": "#fff",
-                "iframeHeight": "500px",
-                "buttonbgColor": "#0055A5",
-                "buttonTextColor": "#FFF"
-            });
-        </script>
-        
         <!-- NoPaperForms Dynamic Tracking Code -->
         <script type="text/javascript">
             var npf_d = 'https://edu9.in4.nopaperforms.com';
@@ -63,6 +48,22 @@
             s2.async = true;
             s2.src = "https://track.nopaperforms.com/js/track.js";
             document.body.appendChild(s2);
+        </script>
+
+        <!-- Meritto/NoPaperForms Popup Widget - Must be after root div -->
+        <button type="button" class="npfWidgetButton npfWidget-48d9c2a459354029d770de776442581e" style="position: fixed; bottom: 30px; right: 30px; z-index: 9998;">Enquire Now!</button>
+        <script src="https://in4cdn.npfs.co/js/widget/npfwpopup.js"></script>
+        <script>
+            let npfW48d9c2a459354029d770de776442581e = new NpfWidgetsInit({
+                "widgetId": "48d9c2a459354029d770de776442581e",
+                "baseurl": "widgets.in4.nopaperforms.com",
+                "formTitle": "Enquiry Form",
+                "titleColor": "#0055A5",
+                "backgroundColor": "#fff",
+                "iframeHeight": "500px",
+                "buttonbgColor": "#D4A843",
+                "buttonTextColor": "#000"
+            });
         </script>
     </body>
 </html>
