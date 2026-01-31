@@ -16,6 +16,10 @@ export const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleGetStarted = () => {
+    window.open('https://starsite.in/projects/edu9.in/', '_blank');
+  };
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -51,8 +55,14 @@ export const Navbar = () => {
                 }`} />
               </a>
             ))}
-            {/* NoPaperForms Popup Button */}
-            <button type="button" class="npfWidgetButton npfWidget-48d9c2a459354029d770de776442581e">Enquire Now!</button>
+            {/* Get Started Button */}
+            <button
+              type="button"
+              onClick={handleGetStarted}
+              className="bg-aviation-blue hover:bg-aviation-blue-dark text-white px-6 py-2 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-aviation-blue/30 hover:-translate-y-0.5 font-medium"
+            >
+              Get Started
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -89,11 +99,14 @@ export const Navbar = () => {
                 {item.label}
               </a>
             ))}
-            {/* NoPaperForms Popup Button - Mobile */}
+            {/* Get Started Button - Mobile */}
             <button
               type="button"
-              className="npfWidgetButton npfWidget-48d9c2a459354029d770de776442581e w-full bg-aviation-blue hover:bg-aviation-blue-dark text-white rounded-full mt-4 py-2 font-medium"
-              onClick={() => setIsMobileMenuOpen(false)}
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                handleGetStarted();
+              }}
+              className="w-full bg-aviation-blue hover:bg-aviation-blue-dark text-white rounded-full mt-4 py-2 font-medium"
             >
               Get Started
             </button>
