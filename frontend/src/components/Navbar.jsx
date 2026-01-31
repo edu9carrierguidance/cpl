@@ -52,12 +52,7 @@ export const Navbar = () => {
               </a>
             ))}
             {/* NoPaperForms Popup Button */}
-            <button
-              type="button"
-              className="npfWidgetButton npfWidget-48d9c2a459354029d770de776442581e bg-aviation-blue hover:bg-aviation-blue-dark text-white px-6 py-2 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-aviation-blue/30 hover:-translate-y-0.5 font-medium"
-            >
-              Get Started
-            </button>
+            <button type="button" class="npfWidgetButton npfWidget-48d9c2a459354029d770de776442581e">Enquire Now!</button>
           </div>
 
           {/* Mobile Menu Button */}
