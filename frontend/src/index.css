@@ -21,6 +21,12 @@ a[href*="emergent.sh"] {
     opacity: 0 !important;
 }
 
+/* Hide default NoPaperForms Enquire Now button */
+body > .npfWidgetButton,
+body > button.npfWidgetButton {
+    display: none !important;
+}
+
 code {
     font-family:
         source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
