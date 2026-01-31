@@ -24,32 +24,6 @@
                 document.head.appendChild(tailwindScript);
             }
         </script>
-        <style>
-            /* Fixed Enquire Now Button Styling */
-            #enquire-now-fixed-btn {
-                position: fixed;
-                bottom: 30px;
-                right: 30px;
-                z-index: 9998;
-                background-color: #D4A843;
-                color: #000;
-                border: none;
-                border-radius: 50px;
-                padding: 14px 32px;
-                font-weight: 700;
-                font-size: 16px;
-                cursor: pointer;
-                transition: all 0.3s ease;
-                box-shadow: 0 4px 15px rgba(212, 168, 67, 0.4);
-                text-transform: uppercase;
-                letter-spacing: 1px;
-            }
-            #enquire-now-fixed-btn:hover {
-                background-color: #B8922E;
-                transform: translateY(-3px);
-                box-shadow: 0 6px 20px rgba(212, 168, 67, 0.5);
-            }
-        </style>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -74,27 +48,6 @@
             s2.async = true;
             s2.src = "https://track.nopaperforms.com/js/track.js";
             document.body.appendChild(s2);
-        </script>
-
-        <!-- Fixed Enquire Now Button - Scrolls to form -->
-        <button type="button" id="enquire-now-fixed-btn" onclick="scrollToEnquiryForm()">ENQUIRE NOW!</button>
-        
-        <script>
-            function scrollToEnquiryForm() {
-                // Scroll to top where the enquiry form is located
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-                
-                // Focus on the form after scrolling
-                setTimeout(function() {
-                    var formElement = document.querySelector('.npf_wgts');
-                    if (formElement) {
-                        formElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    }
-                }, 500);
-            }
         </script>
     </body>
 </html>
