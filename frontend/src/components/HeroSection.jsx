@@ -30,7 +30,7 @@ export const HeroSection = () => {
       <div className="absolute bottom-20 left-10 w-96 h-96 bg-[#D4A843]/10 rounded-full blur-3xl" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-32 lg:py-40 w-full">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32 w-full">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           {/* Left Side - Text Content */}
           <div className="flex-1 max-w-2xl">
@@ -73,7 +73,7 @@ export const HeroSection = () => {
           </div>
 
           {/* Right Side - Meritto Form */}
-          <div className="w-full lg:w-[400px] animate-slide-up-delay">
+          <div className="w-full lg:w-[420px] animate-slide-up-delay">
             <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
               {/* Form Header */}
               <div className="bg-[#0055A5] px-6 py-4">
@@ -81,10 +81,10 @@ export const HeroSection = () => {
                 <p className="text-white/80 text-sm text-center mt-1">Start your pilot journey today</p>
               </div>
               {/* Meritto Form Widget */}
-              <div className="p-2">
+              <div className="p-1">
                 <div 
                   className="npf_wgts" 
-                  data-height="400px" 
+                  data-height="480px" 
                   data-w="48d9c2a459354029d770de776442581e"
                 ></div>
               </div>
