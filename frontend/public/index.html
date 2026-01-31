@@ -24,42 +24,18 @@
                 document.head.appendChild(tailwindScript);
             }
         </script>
-        <style>
-            /* NoPaperForms Button Styling */
-            .npfWidgetButton {
-                background-color: #0055A5 !important;
-                color: #FFF !important;
-                padding: 8px 24px !important;
-                border-radius: 50px !important;
-                border: none !important;
-                font-weight: 600 !important;
-                cursor: pointer !important;
-                transition: all 0.3s ease !important;
-            }
-            .npfWidgetButton:hover {
-                background-color: #003d7a !important;
-                transform: translateY(-2px) !important;
-                box-shadow: 0 4px 12px rgba(0, 85, 165, 0.3) !important;
-            }
-        </style>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root"></div>
         
-        <!-- NoPaperForms Popup Widget Script -->
-        <script src="https://in4cdn.npfs.co/js/widget/npfwpopup.js"></script>
-        <script>
-            let npfW48d9c2a459354029d770de776442581e = new NpfWidgetsInit({
-                "widgetId": "48d9c2a459354029d770de776442581e",
-                "baseurl": "widgets.in4.nopaperforms.com",
-                "formTitle": "Enquiry Form",
-                "titleColor": "#0055A5",
-                "backgroundColor": "#fff",
-                "iframeHeight": "500px",
-                "buttonbgColor": "#0055A5",
-                "buttonTextColor": "#FFF",
-            });
+        <!-- Meritto/NoPaperForms Widget Script -->
+        <script type="text/javascript">
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://widgets.in4.nopaperforms.com/emwgts.js";
+            document.body.appendChild(s);
         </script>
         
         <!-- NoPaperForms Dynamic Tracking Code -->
@@ -67,11 +43,11 @@
             var npf_d = 'https://edu9.in4.nopaperforms.com';
             var npf_c = '6967';
             var npf_m = '1';
-            var s = document.createElement("script");
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://track.nopaperforms.com/js/track.js";
-            document.body.appendChild(s);
+            var s2 = document.createElement("script");
+            s2.type = "text/javascript";
+            s2.async = true;
+            s2.src = "https://track.nopaperforms.com/js/track.js";
+            document.body.appendChild(s2);
         </script>
 
         <a
