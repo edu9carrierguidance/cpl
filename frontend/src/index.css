@@ -21,10 +21,28 @@ a[href*="emergent.sh"] {
     opacity: 0 !important;
 }
 
-/* Hide default NoPaperForms Enquire Now button */
-body > .npfWidgetButton,
-body > button.npfWidgetButton {
-    display: none !important;
+/* Style NoPaperForms Enquire Now button - Yellow/Gold with rounded shape */
+.npfWidgetButton,
+button.npfWidgetButton {
+    background-color: #D4A843 !important;
+    background: #D4A843 !important;
+    color: #000 !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(212, 168, 67, 0.4) !important;
+}
+
+.npfWidgetButton:hover,
+button.npfWidgetButton:hover {
+    background-color: #B8922E !important;
+    background: #B8922E !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(212, 168, 67, 0.5) !important;
 }
 
 code {
