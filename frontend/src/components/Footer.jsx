@@ -67,34 +67,7 @@ export const Footer = () => {
               </div>
 
               {/* Quick Form */}
-              <form onSubmit={handleSubmit} className="w-full lg:w-auto">
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <Input
-                    type="text"
-                    placeholder="Your Name"
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="bg-white/10 border-white/20 text-white placeholder:text-white/50 rounded-full px-6 py-3 min-w-[180px] focus:bg-white/20"
-                    required
-                  />
-                  <Input
-                    type="tel"
-                    placeholder="Phone Number"
-                    value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="bg-white/10 border-white/20 text-white placeholder:text-white/50 rounded-full px-6 py-3 min-w-[180px] focus:bg-white/20"
-                    required
-                  />
-                  <Button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="bg-white text-aviation-blue hover:bg-white/90 px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 disabled:opacity-70"
-                  >
-                    {isSubmitting ? 'Sending...' : 'Get Started'}
-                    <ArrowRight className="ml-2 w-4 h-4" />
-                  </Button>
-                </div>
-              </form>
+              <button type="button" class="npfWidgetButton npfWidget-48d9c2a459354029d770de776442581e">Enquire Now!</button>
             </div>
           </div>
 
